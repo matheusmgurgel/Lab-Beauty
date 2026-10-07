@@ -1,0 +1,6 @@
+{
+  "name": "Lab Beauty Cabeleireiros | Natal/RN",
+  "description": "Salão de beleza exclusivo em Petrópolis, Natal/RN. Especialistas em mechas, loiros, morena iluminada, cortes e tratamentos capilares personalizados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

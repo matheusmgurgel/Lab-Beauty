@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" fill="none" class="w-full h-auto">
+  <defs>
+    <linearGradient id="bronzeGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAD7C2" />
+      <stop offset="50%" stop-color="#C5A072" />
+      <stop offset="100%" stop-color="#A57C4F" />
+    </linearGradient>
+    <linearGradient id="bronzeSub" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D7BEA8" />
+      <stop offset="100%" stop-color="#B8946E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Geometric Bracket Emblem -->
+  <!-- Top bracket -->
+  <path d="M 134 26 L 126 26 L 126 38" stroke="url(#bronzeGold)" stroke-width="2.5" stroke-linecap="square" />
+  <path d="M 186 26 L 194 26 L 194 38" stroke="url(#bronzeGold)" stroke-width="2.5" stroke-linecap="square" />
+  
+  <!-- Stylized Monogram Knot with Central Star -->
+  <g transform="translate(160, 48)">
+    <!-- Left Loop -->
+    <path d="M -8 -13 C -18 -13 -22 -4 -16 2 C -11 6 -4 8 0 8 C -4 8 -11 10 -16 14 C -22 20 -18 29 -8 29 C -1 29 4 23 0 16" 
+          stroke="url(#bronzeGold)" stroke-width="2.2" stroke-linecap="round" fill="none" />
+    <!-- Right Loop -->
+    <path d="M 8 -13 C 18 -13 22 -4 16 2 C 11 6 4 8 0 8 C 4 8 11 10 16 14 C 22 20 18 29 8 29 C 1 29 -4 23 0 16" 
+          stroke="url(#bronzeGold)" stroke-width="2.2" stroke-linecap="round" fill="none" />
+    <!-- Center 4-point Diamond Star -->
+    <path d="M 0 3 L 2 8 L 7 8 L 3 11 L 5 16 L 0 13 L -5 16 L -3 11 L -7 8 L -2 8 Z" 
+          fill="url(#bronzeGold)" opacity="0.9" />
+  </g>
+
+  <!-- Bottom bracket -->
+  <path d="M 126 58 L 126 70 L 134 70" stroke="url(#bronzeGold)" stroke-width="2.5" stroke-linecap="square" />
+  <path d="M 194 58 L 194 70 L 186 70" stroke="url(#bronzeGold)" stroke-width="2.5" stroke-linecap="square" />
+
+  <!-- LAB BEAUTY Wordmark -->
+  <text x="160" y="118" 
+        font-family="'Plus Jakarta Sans', system-ui, sans-serif" 
+        font-size="28" 
+        font-weight="300" 
+        letter-spacing="0.28em" 
+        text-anchor="middle" 
+        fill="url(#bronzeGold)">
+    LAB BEAUTY
+  </text>
+
+  <!-- CABELEIREIROS Subtitle -->
+  <text x="160" y="146" 
+        font-family="'Plus Jakarta Sans', system-ui, sans-serif" 
+        font-size="12" 
+        font-weight="400" 
+        letter-spacing="0.38em" 
+        text-anchor="middle" 
+        fill="url(#bronzeSub)" 
+        opacity="0.85">
+    CABELEIREIROS
+  </text>
+</svg>
